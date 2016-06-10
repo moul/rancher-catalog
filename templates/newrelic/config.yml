@@ -1,0 +1,5 @@
+name: New Relic
+description: |
+  Performance management solution enabling developers to diagnose and fix application performance problems in real time.
+version: 2.3.0.132
+category: Monitoring
