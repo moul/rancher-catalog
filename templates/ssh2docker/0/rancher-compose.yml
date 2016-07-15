@@ -1,0 +1,17 @@
+.catalog:
+  name: "ssh2docker"
+  version: "1.2.0"
+  description: "SSH server to Docker containers"
+  questions:
+  - variable: "SSH2DOCKER_PORT"
+    label: "ssh2docker port"
+    description: "ssh2docker port to expose on host. Will be used to bind TCP"
+    type: "string"
+    default: 2222
+    required: true
+  - variable: "SSH2DOCKER_VERSION"
+    label: "ssh2docker version"
+    description: "Specify a version of the ssh2docker image to pull (default will pull latest stable version)."
+    type: "string"
+    default: "latest"
+    required: true

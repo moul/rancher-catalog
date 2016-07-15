@@ -1,0 +1,5 @@
+name: ssh2docker
+description: |
+  SSH server to Docker containers
+version: 1.2.0
+category: Applications

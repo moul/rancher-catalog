@@ -1,0 +1,4 @@
+ssh2docker:
+  image: moul/ssh2docker:${SSH2DOCKER_VERSION}
+  ports:
+    - ${SSH2DOCKER_PORT}:2222/tcp
